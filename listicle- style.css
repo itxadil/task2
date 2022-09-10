@@ -1,0 +1,62 @@
+.main_div{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#headerimg{
+   height: 500px;
+   width: 100%;
+   
+}
+.headertext{
+  position: absolute;
+  top: 40%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  max-width: 780px;
+}
+.globaldiv{
+  position: relative;
+  display: inline;
+}
+.profilepic{
+  
+  width: 12%;
+  height: 30%;
+  border-radius: 50%;
+ 
+  
+  display: block;
+  margin: auto;
+  position: absolute;
+  margin-top: -480px;
+  margin-left: 50px;
+  border: 1px solid white;
+}
+.profileinfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.languagess{
+  width:300px;
+  height:300px;
+  border: 2px solid gray;
+}
+.div1{
+  margin-top: 100px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.line1{
+  border: 2px solid green;
+}
+.headings{
+  display: flex;
+  flex-direction: row;
+}
